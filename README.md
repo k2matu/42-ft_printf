@@ -20,15 +20,19 @@ int ft_printf(const char *format, ...);
 
 ## Installation
 To compile ft_printf and create the library:
-```
 1. Clone the repository:
-    git clone git@github.com:k2matu/ft_printf.git
-2. Navigate into the directory:
-    cd ft_printf
-3. Compile the library using make:
-    make
-4. The compiled libftprintf.a library will be created at the root of the repository.
 ```
+git clone git@github.com:k2matu/ft_printf.git
+```
+2. Navigate into the directory:
+```
+cd ft_printf
+```
+3. Compile the library using make:
+```
+make
+```
+4. The compiled libftprintf.a library will be created at the root of the repository.
 
 ## Usage
 
