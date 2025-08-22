@@ -44,7 +44,7 @@ To use **ft_printf** in your own project:
 #include "ft_printf.h"
 
 int main(void) {
-    ft_printf("Hello, World!\n");
+    ft_printf("Hello, World!\n"); // Output: Hello, World!
     return 0;
 }
 ```
