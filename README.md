@@ -22,7 +22,7 @@ int ft_printf(const char *format, ...);
 - A C compiler (e.g., `gcc` or `clang`)  
 - `make`  
 
-## Installation
+## Compilation
 To compile **ft_printf** and create the library:
 1. Clone the repository:
 ```
