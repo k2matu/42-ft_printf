@@ -1,7 +1,7 @@
 
 # ft_printf
 
-ft_printf is a custom implementation of the standard C printf() function, developed as part of the curriculum at Hive Helsinki. This project demonstrates my understanding of variadic functions, string formatting, and output in C.
+**ft_printf** is a custom implementation of the standard C printf() function, developed as part of the curriculum at Hive Helsinki. This project demonstrates my understanding of variadic functions, string formatting, and output in C.
 
 Key Features Supported Conversions:
 -  c : Character
@@ -18,30 +18,43 @@ Function Prototype:
 int ft_printf(const char *format, ...);
 ```
 
+## Prerequisites
+- A C compiler (e.g., `gcc` or `clang`)  
+- `make`  
+
 ## Installation
-To compile ft_printf and create the library:
+To compile **ft_printf** and create the library:
 1. Clone the repository:
 ```
-git clone git@github.com:k2matu/ft_printf.git
+git clone git@github.com:k2matu/42-ft_printf.git ft_printf
 ```
-2. Navigate into the directory:
+2. Navigate into the ft_printf and compile the library:
 ```
 cd ft_printf
-```
-3. Compile the library using make:
-```
 make
+cd ..
 ```
-4. The compiled libftprintf.a library will be created at the root of the repository.
+4. The compiled libftprintf.a library will be created at the root of the ft_printf repository.
 
 ## Usage
 
-To use ft_printf in your own project:
-1. Include the ft_printf.h header in your project files:
-```
+To use **ft_printf** in your own project:
+1. Include the ft_printf.h header in your C source file (e.g., my_program.c):
+```c
 #include "ft_printf.h"
+
+int main(void) {
+    ft_printf("Hello, World!\n");
+    return 0;
+}
 ```
 2. Compile your project with the libftprintf.a library:
 ```
-gcc -o my_program my_program.c -L. -lftprintf
+gcc -o my_program my_program.c -L./ft_printf -lftprintf -I./ft_printf
+```
+3. Run your program
+```
+./my_program
+# Output:
+# Hello, World!
 ```
