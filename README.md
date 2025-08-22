@@ -34,7 +34,7 @@ cd ft_printf
 make
 cd ..
 ```
-4. The compiled libftprintf.a library will be created at the root of the ft_printf repository.
+The compiled libftprintf.a library will be created at the root of the ft_printf repository.
 
 ## Usage
 
