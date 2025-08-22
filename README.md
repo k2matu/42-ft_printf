@@ -39,7 +39,9 @@ The compiled libftprintf.a library will be created at the root of the ft_printf 
 ## Usage
 
 To use **ft_printf** in your own project:
-1. Include the ft_printf.h header in your C source file (e.g., my_program.c):
+1. Include the ft_printf.h header in your C source file 
+
+####e.g., my_program.c:
 ```c
 #include "ft_printf.h"
 
