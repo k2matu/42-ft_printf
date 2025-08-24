@@ -24,7 +24,7 @@ int ft_printf(const char *format, ...);
 
 ## Compilation
 To compile **ft_printf** and create the library:
-1. Clone the repository:
+1. Inside your project repository, clone the 42-ft_printf repository (this will create a ft_printf/ folder inside your project):
 ```
 git clone git@github.com:k2matu/42-ft_printf.git ft_printf
 ```
