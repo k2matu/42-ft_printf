@@ -1,4 +1,3 @@
-
 # ft_printf
 
 **ft_printf** is a custom implementation of the standard C printf() function, developed as part of the curriculum at Hive Helsinki. This project demonstrates my understanding of variadic functions, string formatting, and output in C.
@@ -57,6 +56,8 @@ gcc -o my_program my_program.c -L./ft_printf -lftprintf -I./ft_printf
 3. Run your program
 ```
 ./my_program
-# Output:
-# Hello, World!
+```
+Output:
+```
+Hello, World!
 ```
